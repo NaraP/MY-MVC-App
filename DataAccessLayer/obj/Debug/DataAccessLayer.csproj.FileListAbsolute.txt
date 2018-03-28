@@ -1,0 +1,12 @@
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\DataAccessLayer\bin\Debug\BusinessEntities.dll
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\DataAccessLayer\bin\Debug\Utility.dll
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\DataAccessLayer\bin\Debug\BusinessEntities.pdb
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\DataAccessLayer\bin\Debug\Utility.pdb
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\DataAccessLayer\bin\Debug\Utility.dll.config
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

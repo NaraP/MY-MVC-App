@@ -1,0 +1,158 @@
+
+USE [SampleDB]
+GO
+
+/****** Object:  Table [dbo].[Customer]    Script Date: 3/27/2018 9:52:14 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Customer](
+	[CustomerID] [varchar](50) NULL,
+	[Name] [varchar](50) NULL,
+	[Address] [varchar](50) NULL,
+	[Mobileno] [varchar](50) NULL,
+	[EmailID] [varchar](50) NULL
+) ON [PRIMARY]
+GO
+
+
+USE [SampleDB]
+GO
+/****** Object:  StoredProcedure [dbo].[Usp_InsertUpdateDelete_Customer]    Script Date: 3/27/2018 9:50:41 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+ALTER PROCEDURE [dbo].[Usp_InsertUpdateDelete_Customer]
+
+@CustomerID VARCHAR(100)
+
+,@Name VARCHAR(500) = NULL
+
+,@Mobileno VARCHAR(20) = NULL
+
+,@Address VARCHAR(5000) = NULL
+
+,@Birthdate DATETIME = NULL
+
+,@EmailID VARCHAR(500) = NULL
+
+,@Query INT
+
+AS
+
+BEGIN
+	SET NOCOUNT ON
+
+IF (@Query = 1)
+
+BEGIN
+
+INSERT INTO Customer(CustomerID,
+NAME
+
+,Address
+
+,Mobileno
+
+,Birthdate
+
+,EmailID
+
+)
+
+VALUES (@CustomerID,
+
+@Name
+
+,@Address
+
+,@Mobileno
+
+,@Birthdate
+
+,@EmailID
+
+)
+
+ 
+
+IF (@@ROWCOUNT > 0)
+
+BEGIN
+
+SELECT 'Insert'
+
+END
+
+END
+
+ 
+
+IF (@Query = 2)
+
+BEGIN
+
+UPDATE Customer
+
+SET NAME = @Name
+
+,Address = @Address
+
+,Mobileno = @Mobileno
+
+,Birthdate = @Birthdate
+
+,EmailID = @EmailID
+
+WHERE Customer.CustomerID = @CustomerID
+
+ 
+
+SELECT 'Update'
+
+END
+
+ 
+
+IF (@Query = 3)
+
+BEGIN
+
+DELETE
+
+FROM Customer
+
+WHERE Customer.CustomerID = @CustomerID
+
+SELECT 'Deleted'
+
+END
+
+IF (@Query = 4)
+
+BEGIN
+
+SELECT *
+
+FROM Customer
+
+END
+
+END
+ 
+IF (@Query = 5)
+
+BEGIN
+
+SELECT *
+
+FROM Customer
+
+WHERE Customer.CustomerID = @CustomerID
+
+END

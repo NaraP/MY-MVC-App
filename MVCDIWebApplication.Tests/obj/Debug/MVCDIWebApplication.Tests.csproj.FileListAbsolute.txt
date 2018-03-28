@@ -1,0 +1,2 @@
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\MVCDIWebApplication.Tests\obj\Debug\MVCDIWebApplication.Tests.csprojResolveAssemblyReference.cache
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\MVCDIWebApplication.Tests\obj\Debug\MVCDIWebApplication.Tests.csproj.CoreCompileInputs.cache

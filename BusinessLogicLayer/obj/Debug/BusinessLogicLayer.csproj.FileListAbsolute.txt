@@ -1,0 +1,2 @@
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csprojResolveAssemblyReference.cache
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache

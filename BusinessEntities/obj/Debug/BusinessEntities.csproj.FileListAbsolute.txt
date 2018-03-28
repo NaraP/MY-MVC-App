@@ -1,0 +1,5 @@
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\BusinessEntities\bin\Debug\BusinessEntities.dll
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\BusinessEntities\bin\Debug\BusinessEntities.pdb
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\BusinessEntities\obj\Debug\BusinessEntities.csproj.CoreCompileInputs.cache
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\BusinessEntities\obj\Debug\BusinessEntities.dll
+E:\Narasimha_Data\GitHub\MVCDIWebApplication\BusinessEntities\obj\Debug\BusinessEntities.pdb
